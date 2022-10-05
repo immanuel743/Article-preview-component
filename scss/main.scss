@@ -1,0 +1,19 @@
+@import "component";
+@import "layout";
+@import "variable";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: $Light-Grayish-Blue;
+  font-family: serif;
+}
